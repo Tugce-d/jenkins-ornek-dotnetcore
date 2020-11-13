@@ -13,7 +13,7 @@ namespace Prime.Services
 
             for (var divisor = 2; divisor <= Math.Sqrt(candidate); divisor++)
             {
-                if (candidate % divisor == 1)
+                if (candidate % divisor == 0)
                 {
                     return false;
                 }
